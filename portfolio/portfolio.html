@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha384-... votre intégrité du fichier CSS ..." crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="articles.html"><span>GREAT</span>NESS</a>
+            </div>
+            <div class="main">
+                <ul class="menu-nav">
+                    <li><a href="main.html">Accueil</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="accueil" id="home">
+        <div class="accueil-elem">
+            <span>Salut,</span>
+            <h1>Je m'appelle Rose-marie</h1>
+            <h2>Je suis coach de basketball</h2>
+            <p>Je suis disponible, pour entrainer <br> des équipes professionnelles.</p>
+            <a href="#contact" class="boutton">Contactez moi</a>
+        </div>
+        <div class="profil-img">
+            <img src="billie.jpeg" alt="">
+        </div>
+    </section>
+    <section class="det" id="propos">
+        <div class="det-elem">
+            <h1>Mes <span>informations</span></h1>
+            <h2>Introduction</h2>
+            <div class="intro-img">
+                <img src="billie.jpeg" alt="">
+            </div>
+        </div>
+        <div class="det-me">
+            <p class="info-me">Je m'appelle Rose-Marie, coach et entraineur basketball, <br> Depuis toute petite je suis passionnée par le basketball, le travail d'équipe
+                <br> et la confaince des joueurs en leur coéquipiers <br> m'a toujours marqué, d'où mon travail.</p>
+            <p>J'ai eu la chance de coacher les équipes comme Golden State Warriors <br> Sacramento Kings, Toronto Raptors et Cleveland.</p>
+            <p>Je suis domicilié aux Etats Unis, 20225 Halerthrope Lane <br> Germantown Maryland (MD) <br> 20876 <br> Apt 1.</p>
+            <p>Vous pouvez me contacter à partir de mes réseaux :</p>
+            <div class="reseaux">
+                <a href="#"><i class="fa-brands fa-github github-icon"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin linkedin-icon"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest pinterest-icon"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="parcours" id="parcours">
+        <div class="sous-titre">
+            <h2>Mon <span>Parcours</span></h2>
+        </div>
+        <table>
+            <thead>
+            <tr>
+                <th colspan="4">Parcours scolaire</th>
+            </tr>
+            <tr>
+                <th colspan="2">Années</th>
+                <th>Données</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td colspan="2">2007</td>
+                <td>Obtention Brevet</td>
+            </tr>
+            <tr>
+                <td colspan="2">2010</td>
+                <td>Baccalauréat Scientifique</td>
+            </tr>
+            <tr>
+                <td colspan="2">2013</td>
+                <td>Licence Informatique option sport</td>
+            </tr>
+            <tr>
+                <td colspan="2">2015</td>
+                <td>Master IA, Réseaux et <br> Développement Web, diplôme de coach</td>
+            </tr>
+            <tr>
+                <th colspan="4">Expériences</th>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <ul>
+                        <li>Stage developpement web chez cisco</li>
+                        <li>Stage Gestion de base de données <br> & Farewall avec Linux et windows sever chez cisco</li>
+                        <li>Alternance gestion parc IA chez Google</li>
+                        <li>Head coach Cleveland</li>
+                        <li>Coach support Golden State Warriors</li>
+                        <li>Head coach Toronto Warriors</li>
+                        <li>Head coach Sacramento Kings</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="4">Compétences</th>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <ul>
+                        <li>HTML/CSS</li>
+                        <li>Javascript</li>
+                        <li>SQL</li>
+                        <li>Robotique</li>
+                        <li>Programmation</li>
+                        <li>Logique informatique</li>
+                        <li>Marketing</li>
+                        <li>Mindset help</li>
+                    </ul>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="formulaire">
+        <div class="contact-me">
+            <h2>Me <span>Contacter</span></h2>
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="a7ccffc7-0988-437f-a946-5d0986225aa5">
+            <div class="button">
+                <div class="button-name">
+                    <p class="nom">Nom :</p>
+                    <label>
+                        <input type="text" class="button-name-elem" autocomplete="nom" required>
+                    </label>
+                </div>
+                <div class="prenom-button">
+                    <p class="prenom2">Prenom :</p>
+                    <label>
+                        <input type="text" class="button-prenom-elem" autocomplete="prenom" required>
+                    </label>
+                </div>
+                <div class="age-button">
+                    <p class="age">Âge :</p>
+                    <label>
+                        <input type="text" class="button-age-elem" required>
+                    </label>
+                </div>
+                <div class="mail-button">
+                    <p class="mail">Mail :</p>
+                    <label>
+                        <input placeholder="email@greatness.com" type="email" class="button-mail-elem" required>
+                    </label>
+                </div>
+                <div class="tel-button">
+                    <p class="telp">Téléphone :</p>
+                    <label>
+                        <input placeholder="0606060600" type="tel" class="button-tel-elem" required>
+                    </label>
+                </div>
+                <div class="adresse-button">
+                    <p class="adresse">Message :</p>
+                    <label>
+                        <textarea name="message" required class="button-adresse-elem"></textarea>
+                    </label>
+                </div>
+                <div class="check">
+                    <span class="value">J'accepte d'être recontacter</span>
+                    <label>
+                        <input type="checkbox" class="button-check-elem">
+                    </label>
+                </div>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                <div class="sub-button">
+                    <label>
+                        <input type="submit" value="Envoyer" class="button-sub-elem">
+                    </label>
+                </div>
+            </div>
+        </form>
+    </section>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
